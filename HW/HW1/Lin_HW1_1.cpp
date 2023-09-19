@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-	cout<< "Hello world"<< endl;
-	cout<< "my name is Nichole";
+	cout<< "Hello, my name is Nichole Lin"<<endl;
+	
 	return 0;
 }
