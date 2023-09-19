@@ -38,14 +38,15 @@ cout<<endl;
 for (x=1; x<=15; x++){
     cout<<".";
 }
+cout<<endl;
 
-
-for (x=1; x<=20; x++){
+for (int y=1; y<=5; y++){
     //a row of 5 "*"
-    for (int i; i<=x; i++){
+    for (int i=1; i<=y; i++){
         //print 1 *s
         cout<<"*";
     }
+    cout<<endl;
 } 
 return 0;
 }
