@@ -8,7 +8,7 @@ int main(){
     cin>> num;
 
     while ((num%5)!= 0){
-        cout<<"Please enter a number divisible by 5."<<endl<<"Try again"<<endl;
+        cout<<"Please enter a number divisible by 5."<<endl<<"Try again!"<<endl;
         cin>>num;
     }
 
