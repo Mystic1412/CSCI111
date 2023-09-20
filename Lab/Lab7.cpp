@@ -17,9 +17,14 @@ int main() {
     }
 
     //Previous example but using for loop instead
-
+    cout<<"For Loop HERE"<<endl;
     for (counter=1; counter<=20; counter++){
         cout<<counter<<" x "<<num<<" = "<<num*counter<<endl;
+    }
+
+
+    for (int c=5; c<8; c++){
+        cout<<c;
     }
     return 0;
 }
