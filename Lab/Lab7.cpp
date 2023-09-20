@@ -16,5 +16,10 @@ int main() {
 
     }
 
+    //Previous example but using for loop instead
+
+    for (counter=1; counter<=20; counter++){
+        cout<<counter<<" x "<<num<<" = "<<num*counter<<endl;
+    }
     return 0;
 }
