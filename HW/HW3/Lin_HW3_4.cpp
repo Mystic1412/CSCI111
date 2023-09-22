@@ -8,20 +8,19 @@ int main(){
     cin>> x;
     
     if (x==0 || x==1){
-        prime=false;
+        prime = false;
     }
-    if (x%2==0){prime = false;}
-    else{
-        while(counter<=x){
-            if (counter<= x/counter){
-            prime = false;}
-    }}
-
+    else if (counter>=x){
+        while(counter>0){
+            x/counter;
+            counter++;
+        }
+    }
 
     if (prime ==true){
-        cout<<"The number is prime";
-    }else{
-        cout<<"The number is not prime";
+        cout<<"The number is prime"<<endl;
     }
-    return 0;
+    else{
+        cout<<"This isn't a prime number"<<endl;
+    }
 }
