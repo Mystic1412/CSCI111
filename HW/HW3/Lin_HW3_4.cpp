@@ -6,9 +6,21 @@ int main(){
     bool prime=true;
     cout<<"Enter a number: ";
     cin>> x;
-    counter =x;
+    
+    if (x==0 || x==1){
+        prime = false;
+    }
+    else if (counter>=x){
+        while(counter>0){
+            x/counter;
+            counter++;
+        }
+    }
 
-    while(counter>0){
-        x/counter;
+    if (prime ==true){
+        cout<<"The number is prime"<<endl;
+    }
+    else{
+        cout<<"This isn't a prime number"<<endl;
     }
 }
