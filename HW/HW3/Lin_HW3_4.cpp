@@ -32,4 +32,5 @@ int main(){
     else{
         cout<<"This isn't a prime number"<<endl;
     }
+    return 0;
 }
