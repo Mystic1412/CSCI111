@@ -26,5 +26,12 @@ int main() {
     for (int c=5; c<8; c++){
         cout<<c;
     }
+    cout<<endl;
+
+
+    //Exercise 1
+    for(int star=20;star>0; star--){
+        cout<<"*";
+    }
     return 0;
 }
