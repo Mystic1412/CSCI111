@@ -35,10 +35,22 @@ int main() {
     }
     cout<<endl;
 
+    //Exercise 2
     for(int star=20;star>0; star--){
         cout<<"*"<<endl;
     }
     cout<<endl;
+
+    //Exercise 3
+    for(int n=12345;n>0; n=n/10){
+        cout<<n<<endl;
+    }
+    cout<<endl;
+
+    //Exercise 4
+    for(int n=12345; n>0;n=n/10){
+        cout<<n%10;
+    }
     return 0;
 
 }
