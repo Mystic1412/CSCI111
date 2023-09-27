@@ -33,5 +33,12 @@ int main() {
     for(int star=20;star>0; star--){
         cout<<"*";
     }
+    cout<<endl;
+
+    for(int star=20;star>0; star--){
+        cout<<"*"<<endl;
+    }
+    cout<<endl;
     return 0;
+
 }
