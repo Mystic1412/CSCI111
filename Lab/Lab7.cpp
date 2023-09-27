@@ -51,6 +51,15 @@ int main() {
     for(int n=12345; n>0;n=n/10){
         cout<<n%10;
     }
-    return 0;
+    cout<<endl;
 
+    //Nested for loops
+    for (int r =10; r>0;r--){
+        for(int c=0;c<10;c++){
+            cout<<c;
+        }
+        cout<<endl;
+    }
+
+    return 0;
 }
