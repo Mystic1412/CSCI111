@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath> //#include <-- is to get a library <cmath> <-- this is a library
+#include <cstdlib>
 using namespace std;
 
 
@@ -11,7 +12,11 @@ int main(){
     int x;
     cout<<"num:";
     cin>>x;
-    cout<<sqrt(x);
-    cout<<sqrt(9);
+    cout<<sqrt(9); //sqrt of 9 function
+    cout<<endl;
+
+    for (int i=1; i<=10; i++){
+        cout<<rand()%100<<endl; //rand is random
+    }
     return 0;
 }
