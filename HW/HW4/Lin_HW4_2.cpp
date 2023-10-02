@@ -21,4 +21,5 @@ int main(){
             cout<<"X";
         }
     }
+    return 0;
 }
