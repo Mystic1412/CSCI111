@@ -13,4 +13,6 @@ int main(){
     for (int counter=0; counter<age;counter++){
         cout<< "Hello ";
     }
+    
+    return 0;
 }
