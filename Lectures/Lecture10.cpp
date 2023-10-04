@@ -21,5 +21,6 @@ int main(){
     for (int i=1; i<=10; i++){
         cout<<rand()%10<<endl; //rand is random
     }
+    
     return 0;
 }
