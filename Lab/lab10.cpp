@@ -7,10 +7,16 @@ int difsq(int a, int b){
         int result=(a*a)-(b*b);
         return result;
 }
-int avg(int x, int y){
+
+double avg(int x, int y){
     double average;
-    average = (x+y)/2;
+    average = (x+y)/2.0;
     return average;
+}
+
+int cube(int i){
+    int cubed = i*i*i;
+    return cubed;
 }
 
 int main(){
@@ -49,8 +55,8 @@ int main(){
     //function(bool ,string y ,char  )
     cout<<difsq(2,2)<<endl;
 
-    cout<<avg(12, 12)<<endl;
-
+    cout<<avg(1, 2)<<endl;
+    cout<<cube(3);
 
     return 0;
 }
