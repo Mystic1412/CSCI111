@@ -12,7 +12,7 @@ double tax(double price){
 }
 
 int oddLessEven(int x){
-    int odd=0, even=0;
+    int odd=0, even=0, difference;
     for (; x>=0; x/10){
         if(x%2==0){
             even += x%10;
@@ -21,8 +21,10 @@ int oddLessEven(int x){
             odd += x%10;
         }
     }
-    return odd - even;
+    difference = odd-even;
+    return difference;
 }
+
 int main(){
     cout<<"Total tax: $"<<tax(200)<<endl;
     cout<<1234%10<<endl;
