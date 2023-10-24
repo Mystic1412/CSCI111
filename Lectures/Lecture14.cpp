@@ -21,12 +21,25 @@ void swap(int &x, int &y){
     x = y;
     y = temp ;    
 }
-
+int factorial (int n){
+    if(n<=1) return 1;
+    return n*factorial(n-1);
+}
 int main(){
     int myScore=0, yourScore =10;
     swap(myScore, yourScore);
     cout<<"My score is " << myScore<<endl;
-    cout<<"Your score is "<<yourScore;
+    cout<<"Your score is "<<yourScore<<endl;
+    /*
+    You can call a function anywhere:
+     - from main,
+     - from another function
+     - itself.
+    */
+    cout<< factorial(1)<<endl;
+    cout<< factorial(2)<<endl;
+    cout<< factorial(3)<<endl;
+    cout<< factorial(4)<<endl;
 
 
     return 0;
