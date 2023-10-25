@@ -16,15 +16,15 @@ bool isPrime(int x){
     }
 
     if (Prime ==true){
-        cout<<"The number is prime"<<endl;
+        cout<<"True"<<endl;
     }
     else{
-        cout<<"This isn't a prime number"<<endl;
+        cout<<"False"<<endl;
     }
     return Prime;
 }
 
 int main(){
-    isPrime(17);
+    cout<<isPrime(17);
     return 0;
 }
