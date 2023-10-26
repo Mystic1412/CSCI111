@@ -14,13 +14,6 @@ bool isPrime(int x){
             counter++;
         }
     }
-
-    if (Prime ==true){
-        cout<<"True"<<endl;
-    }
-    else{
-        cout<<"False"<<endl;
-    }
     return Prime;
 }
 
