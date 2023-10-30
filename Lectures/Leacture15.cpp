@@ -24,7 +24,7 @@ int firstDigit(int n){
     if (n<10)return n;
     return firstDigit(n/10);
 }
-int maxDigit(int x){
+int maxDigit(int n){
     if (n<10) return n;
     int rc =maxDigit(n/10);
     if (rc>n%10) return rc;
