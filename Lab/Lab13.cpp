@@ -44,15 +44,28 @@ int factorial(int x){
 }
 
 int fibonacci(int n){
-    int previous=0, current =1;
-    if (n==0)return previous;
-
-    fibonacci(n-1);
-    
-    
-    return 0;
+    if (n<=1)return 0;
+    if (n==2)return 1;
+    return fibonacci(n-1)+fibonacci(n-2);
 }
 
+int leftMost(int n){
+    if (n<10) return n;
+    return leftMost(n/10);
+}
+
+int firstDigit(int n){
+    if (n<10)return 0;
+
+    return firstDigit(n/10)*10+ n%10;
+}
+
+int secondDigit(int n){
+    if (n<100){
+        return n%10;
+    }
+    return secondDigit(n/10);
+}
 int main(){
     //lab 12 ex. 3
     cout<<has3(12643)<<endl;
@@ -66,6 +79,10 @@ int main(){
     count(10); //1 2 3 4 5 6 7 8 9 10
     cout<<endl;
     countDown(10);
-    cout<<endl<<factorial(5)<<endl;
+    cout<<endl<<factorial(3)<<endl;
+    cout<<fibonacci(7)<<endl;
+    cout<<leftMost(5678)<<endl;
+    cout<<firstDigit(2345678)<<endl;
+    cout<<secondDigit(7295)<<endl;
     return 0;
 }
