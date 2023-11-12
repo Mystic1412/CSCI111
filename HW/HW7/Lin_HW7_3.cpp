@@ -7,6 +7,9 @@ int num_of_digits(int n){
 }
 
 int main(){
-    cout<<num_of_digits(167324);
+    int num;
+    cout<<"Enter a postive interger: ";
+    cin>> num;
+    cout<<num_of_digits(num);
     return 0;
 }
