@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//WHILE LOOPS
 int main(){
     //example of while loop
     int x=1;

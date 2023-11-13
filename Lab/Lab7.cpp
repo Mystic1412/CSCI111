@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//FOR LOOPS
 int main() {
     int num, counter=1;
     cout<<"Enter a postive number: "<<endl;

@@ -2,7 +2,7 @@
 #include <ctime>
 #include <cstdlib>
 using namespace std;
-
+//FUNCTION LIBRARY
 int difsq(int a, int b){
         int result=(a*a)-(b*b);
         return result;

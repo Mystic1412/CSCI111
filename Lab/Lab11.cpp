@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//CREATING YOUR OWN FUNCTIONS
 double tax(double price){
     double low_tax = 0.05, high_tax=0.06, total;
 

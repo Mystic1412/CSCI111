@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//1D Arrays
 int main(){
     string senate[100];
     int digits[10]={0,1,2,3,4,5,6,7,8,9};

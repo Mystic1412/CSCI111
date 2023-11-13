@@ -1,7 +1,6 @@
 #include <iostream>
-
 using namespace std;
-
+//IF ELSE STATEMENTS
 int main(){
     int age;
     cout <<"What is your age?" << endl;

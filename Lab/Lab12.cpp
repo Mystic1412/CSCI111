@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//Recursion
 int f(int x){
     if (x<=0)return 0; //base case
     return x+f(x-1); //recursive problem 
