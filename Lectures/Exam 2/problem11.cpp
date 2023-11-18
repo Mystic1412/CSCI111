@@ -6,7 +6,7 @@ using namespace std;
 
 int adjust(int a[],int x){
     for (int i=0;i<x; i++){
-        a[i] = a[i]+((-1)+rand()%(2-(-2)+1));
+        a[i] = a[i]+((-2)+rand()%(2-(-2))+1);
     }
     return 0;
 }
