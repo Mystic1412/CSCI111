@@ -13,6 +13,7 @@ void countPrint(int array[], int length){
             cout<<num<<" has a count of "<< count<<endl;
         }
     }
+}
 int main(){
     int test[] = {0,1,7,3,7,2,1,1,0,2};
     countPrint(test, 10);
