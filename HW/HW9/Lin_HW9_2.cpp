@@ -14,6 +14,6 @@ bool search2d(int array[][3],int r, int c, int num){
     
 int main(){
     int TestArr[4][3]={{1,2,2},{3,4,5},{6,7,7},{3,7,1}};
-    cout<<"Number found: "<<search2d(TestArr,3,3,0);
+    cout<<"Number found?: "<<search2d(TestArr,3,3,0);
     return 0;
 }
