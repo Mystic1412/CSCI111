@@ -3,8 +3,9 @@
 using namespace std;
 
 int main(){
-    srand(time(0));
-    cout<<rand();
+    string x = "bob";
+    cout<<x.size();
+    cout<<x[0];
     return 0;
 }
 
